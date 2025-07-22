@@ -1,11 +1,11 @@
 def perform_operation(num1, num2, operation):
-    if operator == "add":
+    if operation == "add":
        return  num1 + num2
-    elif  operator == "subtract":
+    elif  operation == "subtract":
        return num1 - num2
-    elif  operator == "multiply":
+    elif  operation == "multiply":
        return num1 * num2
-    elif  operator == "divide":
+    elif  operation == "divide":
        if num2==0:
         return "division by zero is impossible"
        else:
