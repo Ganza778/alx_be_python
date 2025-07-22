@@ -1,4 +1,4 @@
-def perform_operation(num1,num2,operator):
+def perform_operation(num1, num2, operation):
     if operator == "add":
        return  num1 + num2
     elif  operator == "subtract":
